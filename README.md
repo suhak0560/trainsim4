@@ -17,7 +17,11 @@ Start the program with:
 ```python main.py```
 
 Follow the interactive prompts to select the desired operation and provide the required data.
-## Disclaimer
-This project is intended for research, educational and recreational use only. It is not designed, validated or certified for safety-critical, production, operational or regulatory proposes.
+## Intended use and safety disclaimer
+This project is developed for **research, educational and recreational purposes**, including academic studies, numerical modelling, simulation development and games.
 
-Simulation results are subject to modal assumptions, numerical approximations and input data quality. They should not ba relied upon for real-world railway operations, safety assessments, infrastructure design or regulatory compliance.
+This project is not certified, approved or validated for safety-critical railway applications. It is not intended to be relied upon for real-world railway operations, safety-critical decisions, or regulatory compliance and certification.
+
+This project may contain simplified physical models, numerical approximations, and assumptions that do not fully represent actual railway conditions. Simulation results should not be considered authoritative for operational or regulatory purposes.
+## License and warrenty
+This project is distributed under the [MIT License]()
