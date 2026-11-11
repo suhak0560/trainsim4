@@ -35,13 +35,37 @@ Run the main application:
 
 Follow the interactive prompts to select the desired operation and provide the required data.
 ## Inputs and outputs
-eins
+(to be supplemented)
 ## Modelling approach
-zwei
+(to be supplemented)
 ## Examples
-drei
-## Limitations
-vier
+(to be supplemented)
+## Model scope & limitations
+This project is designed to simulate train performance under simplified operational conditions, primarily focusing on train movement within the **constant-power region** of the traction characteristics.
+### Supported railway systems
+This project is suitable for simulating the following types of railway systems, provided that their operating characteristics are consistent with the model assumptions:
+- **Conventional wheel-rail trains** including multiple units, loco-hauled trains, freight trains, etc., whether they are electric-powered or diesel-powered, single-decker or double-decker
+- **Maglev trains**
+- **Rubber-tyred light metro trains**
+### Traction and low-speed performance
+This project primarily models train performance within the constant-power region, where tractive effort is determined by the available traction power and train speed.
+
+Low-speed operational performance is specified by the user during the train creation workflow, rather than being calculated in detail by the simulation model.
+
+The simulation assumes that trains have reached at least their **base speed** after departing a station and remain at or above their base speed until approaching the next station.
+
+Consequently, the model is most appropriate for railway systems where the constant-power region represents a significant portion of normal train operation.
+### Excluded application
+This project is not designed for:
+- **Mixed road traffic** including trams, light rail or other vehicles operating in mixed road traffic, where interactions with road users and traffic conditions affect vehicle movement
+- **Predominately low-speed operation** including shunting movement or other operational scenarios primarily below their base speed, where low-speed traction characteristics dominate their performance
+- **Detailed low-speed analysis** including heavy-haul trains which cannot reach their base speed after departing a station that requiring explicit modelling of traction behaviour below base speed, beyond the performance characteristics provided by the user
+### General modelling assumptions
+Simulation results depend on the accuracy of user-provided train and route parameters and the applicability of the simplified mathematical model.
+
+The model's assumptions should be considered when interpreting results, particularly for vehicles or operating conditions that differ significantly from those described above.
+
+For information regarding safety certification and permitted applications, refer to the **Intended use and safety disclaimer** section.
 ## Repository structure
 ```
 trainsim4/
