@@ -34,6 +34,14 @@ Run the main application:
 ```python main.py```
 
 Follow the interactive prompts to select the desired operation and provide the required data.
+## Inputs and outputs
+eins
+## Modelling approach
+zwei
+## Examples
+drei
+## Limitations
+vier
 ## Repository structure
 ```
 trainsim4/
@@ -50,7 +58,7 @@ Suggestions, bug reports, documentation improvements and contributions are welco
 
 Contributors are encouraged to document any new modelling assumptions, dependencies or limitations introduces by their changes.
 ## License and warranty
-This project is distributed under the [MIT License](https://github.com/suhak0560/trainsim4/blob/main/LICENSE), which permits use, copying, modification and redistribution, subject to its terms.
+This project is distributed under the [MIT License](https://github.com/suhak0560/trainsim4?tab=MIT-1-ov-file), which permits use, copying, modification and redistribution, subject to its terms.
 
 This software is provided **"AS IS"**, without warranty of any kind. The MIT License includes provisions disclaiming warranties and limiting the liability of authors and copyright holders.
 
