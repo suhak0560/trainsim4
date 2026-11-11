@@ -24,4 +24,8 @@ This project is not certified, approved or validated for safety-critical railway
 
 This project may contain simplified physical models, numerical approximations, and assumptions that do not fully represent actual railway conditions. Simulation results should not be considered authoritative for operational or regulatory purposes.
 ## License and warrenty
-This project is distributed under the [MIT License]()
+This project is distributed under the [MIT License](https://github.com/suhak0560/trainsim4/blob/main/LICENSE), which permits use, copying, modification and redistribution, subject to its terms.
+
+This software is provided **"AS IS"**, without warrenty of any kind. The MIT License includes provisions disclaiming warrenties and limiting the liability of authors and copyright holders.
+
+The safety disclaimer above describes the intended application and certification status of this project. It does not alter or restrict the permissions granted under the MIT License.
