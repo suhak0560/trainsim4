@@ -60,6 +60,7 @@ This project is not designed for:
 - **Mixed road traffic** including trams, light rail or other vehicles operating in mixed road traffic, where interactions with road users and traffic conditions affect vehicle movement
 - **Predominately low-speed operation** including shunting movement or other operational scenarios primarily below their base speed, where low-speed traction characteristics dominate their performance
 - **Detailed low-speed analysis** including heavy-haul trains which cannot reach their base speed after departing a station that requiring explicit modelling of traction behaviour below base speed, beyond the performance characteristics provided by the user
+- **Cable transport** and other modes whose motion relies on external forces
 ### General modelling assumptions
 Simulation results depend on the accuracy of user-provided train and route parameters and the applicability of the simplified mathematical model.
 
